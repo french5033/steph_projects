@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SendMoney" 
+             x:Class="SendMoney.MainPage">
+  
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#003366">
+        
+        <FlexLayout BackgroundColor="#003366" JustifyContent="SpaceBetween">
+            <Button Text="Button" TextColor="White" HeightRequest="35" Margin="10"/>
+            <Label Text="Send Money" FontSize="Large" HeightRequest="35" 
+                   Margin="10" FlexLayout.AlignSelf="Center" TextColor="White" />
+            <Button Text="Cancel" FontSize="Medium" Margin="10" TextColor="White"/>
+        </FlexLayout>
+          
+       <!-- Section 1 --> 
+       <FlexLayout JustifyContent="Start,End" BackgroundColor="#003366"> 
+            <!-- add images, blue diamond background  -->
+            <StackLayout>
+                <!-- user-1.png //Align left -->
+                <Button Text="IMG HERE" BackgroundColor="Lime" Margin="10" />
+                <Label Text="Amy Kimberly" HorizontalTextAlignment="Start" TextColor="White"
+                   FontSize="Small" Margin="5"/>
+            </StackLayout>
+            <Button Text="------->" />
+            <StackLayout >
+                <!-- add arrow and user circle pic here //user-2.png //Align Right -->
+                <Button Text="IMG HERE" BackgroundColor="Lime" Margin="10"/>
+                <Label Text="Gary Gonzalez" HorizontalTextAlignment="End" FontSize="Small"
+                       TextColor="White" Margin="5"/>
+            </StackLayout>
+        </FlexLayout>
+            
+        <!-- Section 2 -->
+        <FlexLayout BackgroundColor="Blue" HeightRequest="80">
+                <StackLayout Margin="5">                   
+                    <Label Text="Is your transaction over 9,500 USD?" 
+                           LineBreakMode="WordWrap" TextColor="White" FontAttributes= "Bold"
+                           />
+                    <Label Text="More info?" TextColor="White" FontSize="Micro" />
+                </StackLayout>
+                <Button Text="Request Invoice" BackgroundColor="#003366" WidthRequest="175"
+                    HeightRequest="30" Margin="10" TextColor="White" HorizontalOptions="End"/>
+        </FlexLayout>
+            
+        <!-- Section 3 -->
+        <FlexLayout JustifyContent="SpaceBetween" BackgroundColor="Blue">
+            <StackLayout Margin="10">
+                <Label Text="Star Pay" TextColor="White"/>
+                <Label Text="Available: 3000 USD" TextColor="White" FontSize="Micro"/>
+            </StackLayout>
+            <Label Text="5,000 USD" TextColor="White" HorizontalTextAlignment="Center"/>
+            <Button Text="Edit" BackgroundColor="#003366" Margin="10"
+                    TextColor="White" HorizontalOptions="End"/>
+        </FlexLayout>
+                    
+        <!-- Section 4 --> 
+        <FlexLayout JustifyContent="SpaceBetween" BackgroundColor="Blue" >
+            <Label Text="Chase Debit" TextColor="White" Margin="10"/>
+            <Label Text="0 USD" TextColor="White"/>
+            <Button Text="Select" TextColor = "Black" BackgroundColor="#ffd700" 
+                    HorizontalOptions="End" Margin="10"/>
+        </FlexLayout>
+        
+        <!-- Section 5 -->
+        <FlexLayout JustifyContent="SpaceBetween" BackgroundColor="Blue">   
+            <Label Text="Chase Credit" TextColor="White" Margin="10"/>
+            <Label Text="1,000 USD" TextColor="White" Margin="10"/>
+            <Button Text="Edit" TextColor="White" BackgroundColor="#003366" HorizontalOptions="End"
+                    BorderColor="Black" Margin="10"/>
+        </FlexLayout>
+        
+        <!-- Section 6 -->
+            <FlexLayout BackgroundColor="Blue" JustifyContent="SpaceBetween">
+                <StackLayout Margin="10">
+                    <Label Text="Fee" TextColor="White"/>
+                    <Label Text="What's this?" TextColor="White" FontSize="Micro"/>
+                </StackLayout>
+                <Label Text="15,000 USD" TextColor="White" HorizontalTextAlignment="End" Margin="10"/>
+            </FlexLayout>
+           
+        <!-- Section 7 --> 
+        <FlexLayout BackgroundColor="#6a5acd" JustifyContent="SpaceBetween" >
+            <!-- align left -->
+            <Label Text="Payment Total" HorizontalTextAlignment="Start" 
+                   TextColor="White" HorizontalOptions="Start"/>
+            <!-- center -->
+            <Label Text="6,000 USD" HorizontalTextAlignment="Center" TextColor="White"
+                   FontAttributes="Bold"/>
+            <!-- align right -->
+            <StackLayout >
+                <Label Text="15,000 USD" HorizontalTextAlignment="End" 
+                       HorizontalOptions="End" TextColor="White"/>
+                <Label Text="Fee Total" FontSize="Micro"
+                       TextColor="White"/>
+            </StackLayout>
+        </FlexLayout>    
+                
+        <!-- align right -->
+        <FlexLayout JustifyContent="Center" HeightRequest="80" Padding="10" 
+                    BackgroundColor="#003366">
+            <Button Text="Next" FontSize="Large" TextColor="White" VerticalOptions="End"/>
+         <!-- Stays at the bottom --> 
+         </FlexLayout>
+        
+    </StackLayout>     
+   </ContentPage.Content>
+    
+</ContentPage>
