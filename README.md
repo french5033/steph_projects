@@ -1,2 +1,0 @@
-# SuperSpaceBlasters
-# Stephanie-French-Project
