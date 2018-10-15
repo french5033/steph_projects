@@ -1,0 +1,11 @@
+/Users/smfrench/Projects/TutorialProject/TutorialProject/bin/Debug/netcoreapp2.1/TutorialProject.deps.json
+/Users/smfrench/Projects/TutorialProject/TutorialProject/bin/Debug/netcoreapp2.1/TutorialProject.runtimeconfig.json
+/Users/smfrench/Projects/TutorialProject/TutorialProject/bin/Debug/netcoreapp2.1/TutorialProject.runtimeconfig.dev.json
+/Users/smfrench/Projects/TutorialProject/TutorialProject/bin/Debug/netcoreapp2.1/TutorialProject.dll
+/Users/smfrench/Projects/TutorialProject/TutorialProject/bin/Debug/netcoreapp2.1/TutorialProject.pdb
+/Users/smfrench/Projects/TutorialProject/TutorialProject/obj/Debug/netcoreapp2.1/TutorialProject.csprojAssemblyReference.cache
+/Users/smfrench/Projects/TutorialProject/TutorialProject/obj/Debug/netcoreapp2.1/TutorialProject.csproj.CoreCompileInputs.cache
+/Users/smfrench/Projects/TutorialProject/TutorialProject/obj/Debug/netcoreapp2.1/TutorialProject.AssemblyInfoInputs.cache
+/Users/smfrench/Projects/TutorialProject/TutorialProject/obj/Debug/netcoreapp2.1/TutorialProject.AssemblyInfo.cs
+/Users/smfrench/Projects/TutorialProject/TutorialProject/obj/Debug/netcoreapp2.1/TutorialProject.dll
+/Users/smfrench/Projects/TutorialProject/TutorialProject/obj/Debug/netcoreapp2.1/TutorialProject.pdb
